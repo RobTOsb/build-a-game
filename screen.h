@@ -448,7 +448,7 @@ void MenuScreen::update()
     if (!music_playing())
     {
         play_music("MenuMusic.mp3"); 
-        set_music_volume(0.5f);
+        set_music_volume(0.2f);
     }
 
     point_2d pt = screen_center();
